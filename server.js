@@ -1,7 +1,6 @@
 const express = require('express');
 const { createServer } = require('http');
 const { Server } = require('socket.io');
-const helmet = require('helmet');
 const path = require('path');
 
 const app = express();
@@ -13,24 +12,6 @@ const io = new Server(httpServer, {
   },
   maxHttpBufferSize: 10 * 1024 * 1024 // 10MB max file size
 });
-
-// Security middleware - relaxed for local network access
-app.use(helmet({
-  contentSecurityPolicy: {
-    directives: {
-      defaultSrc: ["'self'", "http:", "https:", "ws:", "wss:", "blob:"],
-      styleSrc: ["'self'", "'unsafe-inline'", "https:", "cdn.tailwindcss.com"],
-      scriptSrc: ["'self'", "'unsafe-inline'", "https:", "cdn.tailwindcss.com", "cdnjs.cloudflare.com", "cdn.jsdelivr.net"],
-      scriptSrcAttr: ["'self'", "'unsafe-inline'"],
-      imgSrc: ["'self'", "data:", "blob:", "https:"],
-      connectSrc: ["'self'", "ws:", "wss:", "http:", "https:"],
-      fontSrc: ["'self'", "https:", "cdnjs.cloudflare.com"],
-      formAction: ["'self'", "http:", "https:"]
-    }
-  },
-  crossOriginEmbedderPolicy: false,
-  crossOriginResourcePolicy: { policy: "cross-origin" }
-}));
 
 // Serve static files
 app.use(express.static(path.join(__dirname, 'public')));
