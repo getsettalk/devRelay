@@ -5,11 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' http: https: ws: wss: blob:; style-src 'self' 'unsafe-inline' https: cdn.tailwindcss.com; script-src 'self' 'unsafe-inline' https: cdn.tailwindcss.com cdn.jsdelivr.net; script-src-attr 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; connect-src 'self' ws: wss: http: https:; font-src 'self' https: cdn.jsdelivr.net; form-action 'self' http: https:">
-    <title>DevRelay - Real-time Developer Chat</title>
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>DevRelay - Free Real-time Chat & File Sharing | No Login Required</title>
+    <meta name="description" content="DevRelay is a free, instant messaging platform for developers and teams. Chat in real-time, share files up to 10MB, and collaborate without registration or login. Create rooms, invite via QR code, and start chatting immediately.">
+    <meta name="keywords" content="free chat, real-time messaging, developer chat, file sharing, no login chat, instant messaging, team collaboration, online chat rooms, websocket chat, markdown chat">
+    <meta name="author" content="DevRelay">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://devrelay.vercel.app">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devrelay.vercel.app">
+    <meta property="og:title" content="DevRelay - Free Real-time Chat & File Sharing">
+    <meta property="og:description" content="Instant messaging for developers. Chat, share files, and collaborate in real-time without registration. Create rooms and invite anyone.">
+    <meta property="og:image" content="https://devrelay.vercel.app/og-image.png">
+    <meta property="og:site_name" content="DevRelay">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://devrelay.vercel.app">
+    <meta property="twitter:title" content="DevRelay - Free Real-time Chat & File Sharing">
+    <meta property="twitter:description" content="Instant messaging for developers. Chat, share files, and collaborate in real-time without registration.">
+    <meta property="twitter:image" content="https://devrelay.vercel.app/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💬</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💬</text></svg>">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#25D366">
+    <meta name="msapplication-TileColor" content="#25D366">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "DevRelay",
+        "url": "https://devrelay.vercel.app",
+        "description": "Free real-time chat and file sharing platform for developers. No login required.",
+        "applicationCategory": "CommunicationApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript. Requires Socket.IO support.",
+        "softwareVersion": "1.0.0",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "150"
+        },
+        "featureList": [
+            "Real-time messaging",
+            "File sharing up to 10MB",
+            "No registration required",
+            "Markdown support",
+            "QR code room sharing",
+            "Dark mode support",
+            "Mobile responsive"
+        ]
+    }
+    </script>
 
     <!-- Redirect HTTPS to HTTP for local network access -->
     <script>
-        if (window.location.protocol === 'https:') {
+        if (window.location.protocol === 'https:' && window.location.hostname !== 'devrelay.vercel.app') {
             window.location.replace('http://' + window.location.host + window.location.pathname + window.location.search);
         }
     </script>

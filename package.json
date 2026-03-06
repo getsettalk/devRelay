@@ -1,5 +1,5 @@
 {
-  "name": "realtime-relay-tool",
+  "name": "devrelay",
   "version": "1.0.0",
   "description": "Lightweight real-time relay tool for developers to share text, code, and media",
   "main": "server.js",
