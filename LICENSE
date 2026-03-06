@@ -1,0 +1,43 @@
+DevRelay - Custom License
+
+Copyright (c) 2024 Sujeet (@getsettalk)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. **Attribution Requirement**: Any modifications, improvements, or derivative works
+   based on this Software must give appropriate credit to the original author
+   Sujeet (@getsettalk) in the following format:
+   - In the software's about section, README, or documentation: 
+     "Based on DevRelay by Sujeet (@getsettalk)"
+   - Include a link to the original repository: https://github.com/getsettalk/DevRelay
+
+2. **Pull Request Requirement**: Any modifications, bug fixes, or improvements
+   made to this Software MUST be submitted as a Pull Request to the original
+   repository at https://github.com/getsettalk/DevRelay before being used
+   in any public or commercial deployment.
+
+3. **Commercial Use**: Commercial use of this Software is permitted, but
+   commercial entities must:
+   - Submit all improvements back to the original repository
+   - Give visible credit to Sujeet (@getsettalk) in their application
+   - Consider supporting the original project
+
+4. **No Warranty**: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+5. **Original Repository**: The official and original repository for this
+   Software is located at https://github.com/getsettalk/DevRelay. Any forks
+   must maintain a link back to the original repository.
+
+This license encourages community contributions while ensuring proper attribution
+and collaborative improvement of the project.

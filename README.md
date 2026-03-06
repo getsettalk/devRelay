@@ -90,7 +90,17 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-MIT License - feel free to use this project for personal or commercial purposes.
+This project is licensed under the DevRelay Custom License. See the [LICENSE](LICENSE) file for details.
+
+### License Summary:
+- ✅ **Free to use** for personal and commercial purposes
+- ✅ **Free to modify** for your own needs
+- ⚠️ **Required**: Submit all improvements/bug fixes as Pull Request to the original repository
+- ⚠️ **Required**: Give credit to Sujeet (@getsettalk) with link to original repo
+- 📝 **Original Repository**: https://github.com/getsettalk/DevRelay
+
+### Why this license?
+This license encourages community collaboration while ensuring improvements benefit everyone. If you make improvements, please contribute them back so the entire community can benefit!
 
 ## 👨‍💻 Author
 

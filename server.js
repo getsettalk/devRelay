@@ -249,9 +249,6 @@ const PORT = process.env.PORT || 3000;
 if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
   httpServer.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Real-time Relay Server running on port ${PORT}`);
-    console.log(`📱 Open http://localhost:${PORT} to access the app`);
-    console.log(`🌐 Network access: http://<your-ip>:${PORT}`);
-    console.log(`   (Find your IP with: ipconfig on Windows, ifconfig on Mac/Linux)`);
   });
 }
 
