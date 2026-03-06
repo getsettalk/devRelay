@@ -276,7 +276,7 @@
             <div class="relative max-w-[85%] md:max-w-[70%] ${isOwn 
                 ? 'bg-[#DCF8C6] dark:bg-[#005C4B] text-gray-900 dark:text-white border-[#b9e88a] dark:border-[#005C4B]' 
                 : 'bg-white dark:bg-dark-card text-gray-900 dark:text-dark-text border-gray-200 dark:border-dark-border'} 
-                          rounded-2xl px-4 py-3 shadow-sm border">
+                          rounded-2xl px-2 py-2 shadow-sm border">
                 ${!isOwn ? `<p class="text-xs font-medium text-[#25D366] dark:text-[#66bb6a] mb-1">${escapeHtml(message.sender)}</p>` : ''}
                 ${content}
                 <p class="text-xs ${isOwn ? 'text-gray-600 dark:text-gray-300' : 'text-gray-400 dark:text-dark-muted'} mt-1 text-right">
