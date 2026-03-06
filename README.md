@@ -44,30 +44,7 @@ npm run dev
 
 Visit `http://localhost:3000` to access the app.
 
-### Deploy to Vercel
 
-#### Option 1: Deploy with Vercel CLI
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Login to Vercel
-vercel login
-
-# Deploy
-vercel
-```
-
-#### Option 2: Deploy with GitHub Integration
-
-1. Push your code to GitHub
-2. Go to [Vercel Dashboard](https://vercel.com/dashboard)
-3. Click "Add New Project"
-4. Import your GitHub repository
-5. Click "Deploy"
-
-The `vercel.json` configuration is already set up for deployment.
 
 ## How to Use
 
@@ -79,7 +56,7 @@ The `vercel.json` configuration is already set up for deployment.
 
 ## Live Demo
 
-Visit the live demo at: [https://devrelay.vercel.app](https://devrelay.vercel.app)
+Visit the live demo at: https://devrelay.onrender.com
 
 ## Environment Variables
 
